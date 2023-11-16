@@ -1,0 +1,91 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 50px auto;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    position: relative;
+}
+
+h1, h2 {
+    color: #333;
+}
+
+.search-section, .form-container, .button-section {
+    margin-bottom: 20px;
+}
+
+.neighbor-info {
+    position: relative;
+}
+
+#householdTable {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+#householdTable th, #householdTable td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+#householdTable th {
+    background-color: #f2f2f2;
+}
+
+button {
+    padding: 10px;
+}
+
+.button-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; /* Align items vertically in the center */
+}
+
+#addMemberButton {
+    background-color: #4caf50;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    margin-bottom: 20px;
+    width: 25%; /* Make the "Add Household Member" button 25% of the container width */
+}
+
+#editButton {
+    background-color: #af4c4c;
+    color: #fff;
+    padding: 10px; /* Adjust padding if needed */
+    align-self: flex-start; /* Align to the start (left) of the container */
+}
+
+#submitButton { 
+    background-color: #4caf50;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    margin-bottom: 40px;
+    align-self: flex-end; /* Align to the end (right) of the container */
+    /* margin-right: 25px; Remove margin-right to align to the right edge */
+}
+
+#removeMemberButton { 
+    background-color: #af4c4c;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    margin-bottom: 40px;
+
+}
