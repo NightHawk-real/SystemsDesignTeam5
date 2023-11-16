@@ -1,0 +1,83 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+div {
+    padding: 30px;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    max-width: 800px;
+    gap: 10px;
+    margin: 20px auto;
+    padding: 10px;
+    background-color: #fff;
+    justify-content: left;
+}
+
+.div3{
+    display: flex;
+    max-width: 800px;
+    gap: 10px;
+    margin: 20px auto;
+    padding: 10px;
+    background-color: #fff;
+    justify-content: left;
+    justify-content: right;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.search-button{
+    width: 19%;
+    height: 43px;
+    float: right;
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.add-button {
+    padding: 10px;
+    color: black;
+    border: none;
+    cursor: pointer;
+    border: 1px solid rgb(168, 168, 168);
+    background: #f1f1f1
+}
+
+.search-bar {
+    position: static;
+    font-size: 15px;
+    height: 39px;
+    border: 1px solid grey;
+    float: left;
+    width: 80%;
+    background: #f1f1f1;
+}
+
+.neighbor-container {
+    font-size: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    border: 1px solid rgb(168, 168, 168);
+    background: #f1f1f1
+}
+
+.neighbor-container f1,
+.neighbor-container f2,
+.neighbor-container f3 {
+    flex: 1;
+    text-align: left;
+}
