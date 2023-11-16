@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="SystemsDesignTeam5.css">
+    <link rel="stylesheet" href="HouseholdMembers.css">
     <title>Neighbor Sign-in</title>
 </head>
 <body>
@@ -12,62 +12,44 @@
     <h1>Neighbor Sign-in</h1>
 
     <div class="search-section">
-        <label for="search">Search Neighbor:</label>
-        <input type="text" id="search" placeholder="Enter neighbor name, address, or phone">
-        <button id="searchButton">Search</button>
         <br>
-        <br>
-        <label for="Neighbor_id">Neighbor ID: 784932789</label>
-        <label for="Neighbor_lastvisit">Last Visit Date: 10/14/23</label>
+        <label for="Neighbor_name">Name: John Doe</label><br>
+        <label for="Neighbor_id">Neighbor ID: 784932789</label><br>
+        <label for="Neighbor_lastvisit">Last Visit Date: 10/14/23</label><br>
     </div>
 
     <div class="form-container">
-        <div class="left-section">
-            <div class="neighbor-info">
-                <h2>Neighbor Information</h2>
-                <form id="neighborForm">
-                    <label for="First Name">First Name:</label>
-                    <input type="text" id="firstName" value="John" disabled>
-                    <label for="Last Name">Last Name:</label>
-                    <input type="text" id="lastName" value="Doe" disabled>
-                    <label for="address">Address:</label>
-                    <input type="text" id="address" value="123 Main St" disabled>
-                    <label for="city">City:</label>
-                    <input type="text" id="city" value="Tulsa" disabled>
-                    <label for="state">State:</label>
-                    <input type="text" id="state" value="OK" disabled>
-                    <label for="zipcode">Zipcode:</label>
-                    <input type="text" id="zipcode" value="74104" disabled>
-                </form>
-                <button id="nextButton">Next</button>
-            </div>
+        <div class="neighbor-info">
+            <h2>Neighbor Household Members</h2>
+            <table id="householdTable">
+                <thead>
+                    <tr>
+                        <th>Member ID</th>
+                        <th>First Name</th>
+                        <th>Last Name</th>
+                        <th>Gender</th>
+                        <th>Birthdate</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <!-- Sample row for display, you can add more dynamically -->
+                    <tr>
+                        <td>1</td>
+                        <td>John</td>
+                        <td>Doe</td>
+                        <td>M</td>
+                        <td>06/15/1988</td>
+                    </tr>
+                </tbody>
+            </table>
+            <button id="addMemberButton">Add Household Member</button>
+            <button id="removeMemberButton">Remove Household Member</button>
         </div>
+    </div>
 
-        <div class="right-section">
-            <div class="neighbor-info">
-                <form id="neighborForm">
-                    <br>
-                    <br>
-                    <br>
-                    <br>
-                    <label for="phone">Phone:</label>
-                    <input type="text" id="phone" value="(918)-555-1234" disabled>
-                    <label for="email">Email:</label>
-                    <input type="text" id="email" value="john.doe@gmail.com" disabled>
-                    <label for="gender">Gender:</label>
-                    <input type="text" id="gender" value="M" disabled>
-                    <label for="birthdate">Birth Date:</label>
-                    <input type="text" id="birthdate" value="6/15/1988" disabled>
-                    <label for="language">Language:</label>
-                    <input type="text" id="language" value="English" disabled>
-                    <label for="race">Race:</label>
-                    <input type="text" id="race" value="Caucasian" disabled>
-
-                </form>
-            </div>
-            <div class="edit-section">
-                <button id="editButton">Edit</button>
-        </div>
+    <div class="button-section">
+        <button id="editButton">Edit</button>
+        <button id="submitButton">Submit</button>
     </div>
 </div>
 
