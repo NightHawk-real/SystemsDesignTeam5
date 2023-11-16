@@ -69,6 +69,13 @@ button {
     align-self: flex-start; /* Align to the start (left) of the container */
 }
 
+#backButton {
+    background-color: #4caf50;
+    color: #fff;
+    padding: 10px; /* Adjust padding if needed */
+    align-self: flex-start; /* Align to the start (left) of the container */
+}
+
 #submitButton { 
     background-color: #4caf50;
     color: #fff;
