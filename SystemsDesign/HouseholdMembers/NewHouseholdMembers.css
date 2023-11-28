@@ -46,10 +46,7 @@ label {
 }
 
 input[type="text"] {
-    width: 300px;
-    padding: 8px;
-    margin-bottom: 15px;
-    box-sizing: border-box;
+    width: 180px;
 }
 
 .button {
@@ -61,24 +58,23 @@ input[type="text"] {
     cursor: pointer;
 }
 
-table {
+.edit-button-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+#householdTable {
     width: 100%;
     border-collapse: collapse;
 }
 
-table tr:nth-child(odd) {
-    background-color: #f2f2f2;
-    /* Light gray for odd rows */
-}
-
-table tr:nth-child(even) {
-    background-color: #e6e6e6;
-    /* Slightly darker gray for even rows */
-}
-
-td {
-    padding: 8px;
-    /* Adjust padding as needed */
+#householdTable th,
+#householdTable td {
     border: 1px solid #ddd;
-    /* Light border for each cell */
+    padding: 5px;
+    text-align: left;
+}
+
+#householdTable th {
+    background-color: #f2f2f2;
 }

@@ -60,25 +60,3 @@ input[type="text"] {
     border: none;
     cursor: pointer;
 }
-
-table {
-    width: 100%;
-    border-collapse: collapse;
-}
-
-table tr:nth-child(odd) {
-    background-color: #f2f2f2;
-    /* Light gray for odd rows */
-}
-
-table tr:nth-child(even) {
-    background-color: #e6e6e6;
-    /* Slightly darker gray for even rows */
-}
-
-td {
-    padding: 8px;
-    /* Adjust padding as needed */
-    border: 1px solid #ddd;
-    /* Light border for each cell */
-}

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="NewHouseholdMembers.css">
+    <title>Household Member List</title>
+</head>
+<body>
+    <div class="flex-container-column">
+        <h1 style="text-align: center;">Household Member List</h1>
+    </div>
+
+    <div class="flex-container-column">
+        <label for="Neighbor_name">Name: Garth Brooks</label>
+        <label for="Neighbor_id">Neighbor ID: 784932789</label>
+        <label for="Neighbor_lastvisit">Last Visit Date: 10/14/23</label>
+    </div>
+
+    <div class="flex-container-column">
+        <table id="householdTable">
+            <thead>
+                <tr>
+                    <th>Neighbor ID</th>
+                    <th>First Name</th>
+                    <th>Last Name</th>
+                    <th>Gender</th>
+                    <th>Birthdate</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>784932710</td>
+                    <td>John</td>
+                    <td>Doe</td>
+                    <td>M</td>
+                    <td>06/15/1988</td>
+                </tr>
+
+                <tr>
+                    <td>784932711</td>
+                    <td>Jimmy</td>
+                    <td>Smith</td>
+                    <td>M</td>
+                    <td>02/09/1901</td>
+                </tr>
+                
+                <tr>
+                    <td>784932712</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+            </tbody>
+        </table>
+        
+        <div class="edit-button-container">
+            <button class="button" style="background-color: grey;">Add Household Member</button>
+            <button class="button" style="background-color: rgb(143, 71, 71)">Remove Household Member</button>
+        </div>
+
+    </div>
+
+    <div class="div3">
+        <button class="button" style="background-color: rgb(143, 71, 71)">Cancel</button>
+        <button class="button" style="background-color: #4caf50;">Save</button>
+    </div>
+</body>
+
+</html>

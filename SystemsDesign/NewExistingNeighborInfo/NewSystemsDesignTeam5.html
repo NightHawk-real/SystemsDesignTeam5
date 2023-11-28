@@ -1,57 +1,73 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="NewSystemsDesignTeam5.css">
-    <title>Neighbor Sign-in</title>
+    <title>Neighbor Profile</title>
 </head>
-<body>
 
 <body>
+
     <div class="flex-container-column" style="align-items: center;">
-        <h1>Neighbor Check In</h1>
+        <h1>Neighbor Profile</h1>
     </div>
-    
+
     <div class="flex-container-column">
-        <label for="Neighbor_id">Neighbor ID: 784932789</label>
-        <label for="Neighbor_lastvisit">Last Visit Date: 10/14/23</label>
+        <p>Neighbor ID: 784932789</p>
+        <p>Last Visit Date: 10/14/23</p>
+    </div>
+
+    <div class="div3">
+        <p>Neighbor is eligible for service</p>
+        <button class="button" style="background-color: #4caf50;">Check In</button>
     </div>
 
     <div class="flex-container-side">
-        <div>
-            <label for="First Name">First Name:</label>
-            <input type="text" id="firstName" value="John" disabled>
-            <label for="Last Name">Last Name:</label>
-            <input type="text" id="lastName" value="Doe" disabled>
-            <label for="address">Address:</label>
-            <input type="text" id="address" value="123 Main St" disabled>
-            <label for="city">City:</label>
-            <input type="text" id="city" value="Tulsa" disabled>
-            <label for="state">State:</label>
-            <input type="text" id="state" value="OK" disabled>
-            <label for="zipcode">Zipcode:</label>
-            <input type="text" id="zipcode" value="74104" disabled>
-        </div>
-        <div>
-            <label for="phone">Phone:</label>
-            <input type="text" id="phone" value="(918)-555-1234" disabled>
-            <label for="email">Email:</label>
-            <input type="text" id="email" value="john.doe@gmail.com" disabled>
-            <label for="gender">Gender:</label>
-            <input type="text" id="gender" value="M" disabled>
-            <label for="birthdate">Birth Date:</label>
-            <input type="text" id="birthdate" value="6/15/1988" disabled>
-            <label for="language">Language:</label>
-            <input type="text" id="language" value="English" disabled>
-            <label for="race">Race:</label>
-            <input type="text" id="race" value="Caucasian" disabled>
-        </div>
+    <table>
+        <tr>
+            <td style="font-weight:bolder;">First Name:</td>
+            <td>John</td>
+            <td style="font-weight:bolder;">Phone:</td>
+            <td>(918)-555-1234</td>
+        </tr>
+        <tr>
+            <td style="font-weight:bolder;">Last Name:</td>
+            <td>Doe</td>
+            <td style="font-weight:bolder;">Email:</td>
+            <td>john.doe@gmail.com</td>
+        </tr>
+        <tr>
+            <td style="font-weight:bolder;">Address:</td>
+            <td>123 Main St</td>
+            <td style="font-weight:bolder;">Gender:</td>
+            <td>M</td>
+        </tr>
+        <tr>
+            <td style="font-weight:bolder;">City:</td>
+            <td>Tulsa</td>
+            <td style="font-weight:bolder;">Birth Date:</td>
+            <td>6/15/1988</td>
+        </tr>
+        <tr>
+            <td style="font-weight:bolder;">State:</td>
+            <td>OK</td>
+            <td style="font-weight:bolder;">Language:</td>
+            <td>English</td>
+        </tr>
+        <tr>
+            <td style="font-weight:bolder;">Zipcode:</td>
+            <td>74104</td>
+            <td style="font-weight:bolder;">Race:</td>
+            <td>Caucasian</td>
+        </tr>
+    </table>
+
     </div>
 
     <div class="div3">
         <button class="button" style="background-color: grey">Back</button>
-        <button class="button" style="background-color: darkred">Edit</button>
         <button class="button" style="background-color: #4caf50;">Next</button>
     </div>
 </body>
