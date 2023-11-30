@@ -10,48 +10,55 @@
     
 <div class="container">
     <button id="backButton">Back</button>
-    <h1>Neighbor Montly Report</h1>
     <h2>Tulsa Food Pantry</h2>
+    <h1>Neighbor Check-in Monthly Report</h1>
+
 
     <div class="search-section">
         <br>
-        <label for="Neighbor_name">Name: John Doe</label><br>
-        <label for="Neighbor_id">Neighbor ID: 784932789</label><br>
-        <label for="Neighbor_lastvisit">Last Visit Date: 10/14/23</label><br>
+        <p>Page 1 of 1</p>
+        <p>November 30, 2023</p>
     </div>
 
     <div class="form-container">
         <div class="neighbor-info">
-            <h2>Neighbor Household Members</h2>
+            <h2></h2>
             <table id="householdTable">
                 <thead>
                     <tr>
-                        <th>Member ID</th>
-                        <th>First Name</th>
-                        <th>Last Name</th>
-                        <th>Gender</th>
-                        <th>Birthdate</th>
+                        <th>Total Neighbors Checked In</th>
+                        <th>Average Neighbors per Day</th>
                     </tr>
                 </thead>
                 <tbody>
                     <!-- Sample row for display, you can add more dynamically -->
                     <tr>
-                        <td>1</td>
-                        <td>John</td>
-                        <td>Doe</td>
-                        <td>M</td>
-                        <td>06/15/1988</td>
+                        <td>2895</td>
+                        <td>96.5</td>
                     </tr>
                 </tbody>
             </table>
-            <button id="addMemberButton">Add Household Member</button>
-            <button id="removeMemberButton">Remove Household Member</button>
+            <h2> Weekly Totals for the Month</h2>
+            <table id="householdTable">
+                <thead>
+                    <tr>
+                        <th>Week 1</th>
+                        <th>Week 2</th>
+                        <th>Week 3</th>
+                        <th>Week 4</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <!-- Sample row for display, you can add more dynamically -->
+                    <tr>
+                        <td>684</td>
+                        <td>740</td>
+                        <td>705</td>
+                        <td>766</td>
+                    </tr>
+                </tbody>
+            </table>
         </div>
-    </div>
-
-    <div class="button-section">
-        <button id="editButton">Edit</button>
-        <button id="submitButton">Submit</button>
     </div>
 </div>
 
