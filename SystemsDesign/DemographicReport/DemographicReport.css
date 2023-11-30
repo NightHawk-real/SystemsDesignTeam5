@@ -100,3 +100,13 @@ button {
     margin-bottom: 40px;
 
 }
+
+table tr:nth-child(odd) {
+    background-color: #f2f2f2;
+    /* Light gray for odd rows */
+}
+
+table tr:nth-child(even) {
+    background-color: #e6e6e6;
+    /* Slightly darker gray for even rows */
+}
