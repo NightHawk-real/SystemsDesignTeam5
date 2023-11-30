@@ -60,3 +60,8 @@ input[type="text"] {
     border: none;
     cursor: pointer;
 }
+
+.highlight {
+    color: red;
+    /* Change 'red' to your desired color */
+}
